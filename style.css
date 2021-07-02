@@ -1,15 +1,14 @@
 a:hover{
 	color: green;
 }
+body{
+	display: flex;
+	flex-direction: column;
+}
 
 main{
 	display: flex;
 	flex: auto;
-}
-
-body{
-	display: flex;
-	flex-direction: column;
 }
 
 aside{
@@ -20,3 +19,46 @@ article{
 	flex: 3;
 }
 
+.bilibili1{
+	font-family: "montserrat";
+	background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+	background-size: 400%;
+	animation: bganimation 20s infinite;
+}
+.bilibili2{
+	background-image: url(https://z3.ax1x.com/2021/07/02/RgYyrQ.jpg)!important;
+}
+.bilibili3{
+	border-style:solid none solid solid;
+	border-width: 3px;
+	border-color: #FFCCCC;
+	background: none !important;
+}
+.bilibili4{
+	border-style:solid solid solid solid;
+	border-width: 3px;
+	border-color: #FFCCCC;
+}
+.box{
+  color: white; 
+  text-align: center;
+  text-transform: uppercase;
+  margin: 250px 0;
+  font-size: 22px;
+}
+@keyframes bganimation {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+.iLYCYN1{
+		background-image: url(https://z3.ax1x.com/2021/07/02/RcBNid.jpg);
+		
+}
