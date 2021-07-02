@@ -3,5 +3,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	targetImage.addEventListener("click", function() {
 	    alert(targetImage.classList.remove("small"))
 	});
-	
 });
