@@ -1,6 +1,8 @@
 a:hover{
-	color: green;
+	color: #FFCCCC;
 }
+a {text-decoration:none; }
+a:hover { text-decoration:underline; }
 body{
 	display: flex;
 	flex-direction: column;
@@ -18,26 +20,56 @@ aside{
 article{
 	flex: 3;
 }
-
+/* 主页body样式 */
 .iLYCYN1{
-	background-color: #F6F6F6;
+	background-color: #FFFFFF;
 }
-.iLYCYN2{
 
-}
-.iLYCYN3{
-	border-style:solid none solid solid;
-	border-width: 1px;
-	border-color: #114656;
+/* 主页main样式 */
+.iLYCYN2{
 	
 }
-.iLYCYN4{
-	border-style:solid solid solid solid;
-	border-width: 1px;
-	border-color: #114656;
+
+/* 主页左边部分样式 */
+.iLYCYN3{
 	background-color: #F6F6F6;
+	border: 1px solid rgba(0,0,0,.06);
+	border-radius: 5px;
+	box-shadow: none;
 }
 
+/* 主页左边导航样式 */
+#iLYCYN3_1{
+	color: #555555;
+	height: 130;
+	width: 235px;
+	font-size: 21px;
+	display: flex;
+	align-items: center;
+	border-style:solid solid solid solid;
+	border-width: 2px;
+	border-radius: 5px;
+	border-color: #114656;
+}
+
+/* 主页左边图片盒子样式 */
+#iLYCYN3_2{
+	text-align: center;
+	border-style:solid solid solid solid;
+	border-width: 5px;
+	border-radius: 5px;
+	border-color: #114656;
+}
+
+
+/* 主页右边部分样式 */
+.iLYCYN4{
+	background-color: #F6F6F6;
+	border: 1px solid rgba(0,0,0,.06);
+	border-radius: 5px;
+	box-shadow: none;
+}
+/* bilibili视频 */
 .bilibili1{
 	font-family: "montserrat";
 	background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
@@ -45,7 +77,9 @@ article{
 	animation: bganimation 20s infinite;
 }
 .bilibili2{
-	background-image: url(https://z3.ax1x.com/2021/07/03/R2mHTU.png);
+	background-image: url(https://z3.ax1x.com/2021/07/05/R5jkb4.png);
+	background-size:1100px 634px;
+	background-repeat:no-repeat;
 }
 .bilibili3{
 	border-style:solid none solid solid;
@@ -59,11 +93,17 @@ article{
 	border-color: #FFCCCC;
 }
 .box{
-    color: #FFFFFF; 
-    text-align: center;
-	margin: 235px 0;
-
-    font-size: 20px;
+    color: #FFCCCC; 
+	width: 235px;
+	font-size: 20px;
+	border-style:solid solid solid solid;
+	border-width: 2px;
+	border-radius: 5px;
+	border-color: #FFFFFF;
+	margin-top: 5px;
+}
+.boxx{
+	text-align: center;
 }
 @keyframes bganimation {
   0%{
@@ -76,4 +116,59 @@ article{
     background-position: 0% 50%;
   }
 }
+#nav{
+	height: 100px;
+	background-color: #FFFFFF;
+	border: 1px solid rgba(0,0,0,.06);
+	border-radius: 5px;
+	box-shadow: none;
+}
+#tp{
+	height: 60px;
+	width: 1100px;
+}
+#dh{
+	margin-top: 10px;
+	height: 25px;
+}
+/* 表白网页左边部分 */
+.confession2{
+	width: 1100px;
+	background-color: #F6F6F6;
+	margin-top: 20px;
+}
+.confession3{
+	background-color: #FFFFFF;
+	height: 840px;
+	width: 670px;
+	border: 1px solid rgba(0,0,0,.06); 
+	border-radius: 5px;
+	box-shadow: none;
+	float: left;
+}
+
+.confession3_2{
+	background-color: #FFFFFF;
+	height: 3022px;
+	width: 670px;
+	border: 1px solid rgba(0,0,0,.06); 
+	border-radius: 5px;
+	box-shadow: none;
+}
+/* 表白网页右边盒子 */
+.confession4{
+	background-color: #FFFFFF;
+	height: 3870px;
+	width: 410px;
+	border: 1px solid rgba(0,0,0,.06); 
+	border-radius: 5px;
+	box-shadow: none;
+	float: right;
+	text-align: center;
+}
+.confession4_2{
+	width: 385px;
+	margin-left: 12.5px;
+}
+
 
