@@ -77,19 +77,19 @@ article{
 	animation: bganimation 20s infinite;
 }
 .bilibili2{
-	background-image: url(https://z3.ax1x.com/2021/07/05/R5jkb4.png);
-	background-size:1100px 634px;
+	background-image: url(https://z3.ax1x.com/2021/07/06/RoM4r8.png);
+	background-size:1100px 638.4px;
 	background-repeat:no-repeat;
 }
 .bilibili3{
 	border-style:solid none solid solid;
-	border-width: 2px;
+	border-width: 1px;
 	border-color: #FFCCCC;
 	background: none !important;
 }
 .bilibili4{
 	border-style:solid solid solid solid;
-	border-width: 2px;
+	border-width: 1px;
 	border-color: #FFCCCC;
 }
 .box{
@@ -170,5 +170,3 @@ article{
 	width: 385px;
 	margin-left: 12.5px;
 }
-
-
