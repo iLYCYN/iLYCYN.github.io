@@ -78,7 +78,7 @@ article{
 }
 .bilibili2{
 	background-image: url(https://z3.ax1x.com/2021/07/06/RoM4r8.png);
-	background-size:1100px 638.4px;
+	background-size:100%;
 	background-repeat:no-repeat;
 }
 .bilibili3{
@@ -93,7 +93,7 @@ article{
 	border-color: #FFCCCC;
 }
 .box{
-    color: #FFCCCC; 
+  color: #FFCCCC; 
 	width: 235px;
 	font-size: 20px;
 	border-style:solid solid solid solid;
